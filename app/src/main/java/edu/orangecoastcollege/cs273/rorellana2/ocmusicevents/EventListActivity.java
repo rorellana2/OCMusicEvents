@@ -21,6 +21,7 @@ public class EventListActivity extends ListActivity {
 
         // Let ListView populate the list
         //setContentView(R.layout.activity_event_list);
+        //
     }
 
     @Override
