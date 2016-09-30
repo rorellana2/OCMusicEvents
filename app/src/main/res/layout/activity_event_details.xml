@@ -17,21 +17,52 @@
         android:layout_height="wrap_content"
         app:srcCompat="@mipmap/ic_launcher"
         android:id="@+id/eventImageView"
-        android:layout_weight="1" />
+        android:layout_weight=".3" />
 
     <TextView
         android:text="TextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/eventTitleTextView"
-        android:layout_weight=".25"
-        android:elevation="0dp" />
+        android:layout_weight="0.03"
+        android:elevation="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp" />
 
     <TextView
         android:text="TextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/eventDetailsTextView"
-        android:layout_weight=".5" />
+        android:id="@+id/eventDateDayTextView"
+        android:layout_weight=".001" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eventTimeTextView"
+        android:layout_weight=".001" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eventLocationTextView"
+        android:layout_weight=".001" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eventAddress1TextView"
+        android:layout_weight=".001" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eventAddress2TextView"
+        android:layout_weight=".001" />
 
 </LinearLayout>
